@@ -1,0 +1,50 @@
+{
+  "title": "Todas as vezes que pensei em você",
+  "subtitle": "Um lugar para guardar tudo aquilo que meu coração nunca conseguiu explicar por completo.",
+  "intro": {
+    "lines": [
+      "Existem milhares de coisas que passam pela minha cabeça todos os dias.",
+      "Mas existe uma pessoa que nunca sai dela.",
+      "Você."
+    ],
+    "button": "Entre nos meus pensamentos"
+  },
+  "thoughtsIntro": {
+    "kicker": "Capítulo dois",
+    "title": "Todas as vezes que pensei em você",
+    "text": "Nem todo pensamento vira conversa. Alguns ficam guardados, esperando o momento certo. Este é o lugar onde eles finalmente encontram você."
+  },
+  "momentsIntro": {
+    "kicker": "Capítulo três",
+    "title": "Momentos que eu guardaria para sempre",
+    "text": "Algumas imagens não mostram só onde estávamos. Mostram quem eu era quando estava ao seu lado."
+  },
+  "detailsIntro": {
+    "kicker": "Capítulo quatro",
+    "title": "As pequenas coisas sobre você",
+    "text": "Bilhetes dobrados. Abra um de cada vez, sem pressa."
+  },
+  "futureIntro": {
+    "kicker": "Capítulo cinco",
+    "title": "A vida que imagino com você",
+    "lines": [
+      "Quando penso no futuro, não imagino apenas lugares, conquistas ou coisas que quero ter.",
+      "Eu imagino você."
+    ],
+    "disclaimer": "Nada disto aconteceu ainda. São sonhos, desejos e planos — e eu gostaria de vivê-los com você."
+  },
+  "letterIntro": {
+    "kicker": "Capítulo seis",
+    "title": "A carta"
+  },
+  "ending": {
+    "lines": [
+      "Essa não é a última vez que vou pensar em você.",
+      "E também não será a última vez que vou escrever sobre nós."
+    ],
+    "button": "Voltar ao diário"
+  },
+  "chapterOrder": ["thoughts", "moments", "details", "future", "letter"],
+  "music": null,
+  "interludes": []
+}

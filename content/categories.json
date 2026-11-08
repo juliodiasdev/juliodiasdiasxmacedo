@@ -1,0 +1,8 @@
+[
+  { "id": "saudade", "slug": "saudade", "label": "Quando senti sua falta", "position": 0 },
+  { "id": "futuro", "slug": "futuro", "label": "Quando imaginei nosso futuro", "position": 1 },
+  { "id": "amor", "slug": "amor", "label": "Quando percebi que te amava", "position": 2 },
+  { "id": "pequenas-coisas", "slug": "pequenas-coisas", "label": "Pequenas coisas que me lembram você", "position": 3 },
+  { "id": "nunca-contei", "slug": "nunca-contei", "label": "Coisas que nunca te contei", "position": 4 },
+  { "id": "escolhi", "slug": "escolhi", "label": "Todas as vezes que escolhi você", "position": 5 }
+]

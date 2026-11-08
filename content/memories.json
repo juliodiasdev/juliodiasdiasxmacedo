@@ -1,0 +1,47 @@
+[
+  {
+    "id": "m1",
+    "title": "[Título da memória]",
+    "story": "[Conte aqui o que aconteceu neste dia. Este texto é um espaço reservado e deve ser substituído pela história real.]",
+    "feeling": "Há momentos que a gente não percebe que vai guardar. Só depois descobre que eles ficaram.",
+    "date": null,
+    "dateLabel": null,
+    "location": null,
+    "media": null,
+    "audioSrc": null,
+    "layout": "wide",
+    "position": 0,
+    "status": "published",
+    "isSpecial": false
+  },
+  {
+    "id": "m2",
+    "title": "[Título da memória]",
+    "story": "[Conte aqui o que aconteceu. Inclua o lugar e a data se quiser.]",
+    "feeling": "Lembro menos do lugar e mais de como era estar ali com você.",
+    "date": null,
+    "dateLabel": null,
+    "location": null,
+    "media": null,
+    "audioSrc": null,
+    "layout": "tall",
+    "position": 1,
+    "status": "published",
+    "isSpecial": false
+  },
+  {
+    "id": "m3",
+    "title": "[Título da memória]",
+    "story": "[Conte aqui o que aconteceu.]",
+    "feeling": "Se eu pudesse voltar a um instante, talvez fosse este.",
+    "date": null,
+    "dateLabel": null,
+    "location": null,
+    "media": null,
+    "audioSrc": null,
+    "layout": "square",
+    "position": 2,
+    "status": "published",
+    "isSpecial": true
+  }
+]

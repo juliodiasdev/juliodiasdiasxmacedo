@@ -1,0 +1,4 @@
+{
+  "$comment": "Manifesto das mídias reais. Gere a versão inicial com `npm run media:inventory` depois de colocar os arquivos em public/media/originals. Edite 'alt', 'chapter' e 'notes'.",
+  "items": []
+}
