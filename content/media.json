@@ -1,0 +1,939 @@
+{
+  "$comment": "Gerado por `npm run media:inventory`. Edite apenas alt, chapter e notes; o resto é recalculado. Referencie as mídias pelo id em memories.json (mediaId), thoughts.json (photoId), future.json (mediaId) e site.json (interludes[].mediaId).",
+  "items": [
+    {
+      "id": "jabuticabeira",
+      "file": "originals/WhatsApp Image 2026-11-08 at 17.15.46.jpeg",
+      "kind": "image",
+      "width": 1200,
+      "height": 1600,
+      "orientation": "portrait",
+      "sizeMB": 0.28,
+      "takenAt": null,
+      "hasGps": false,
+      "duration": null,
+      "videoCodec": null,
+      "hasAudio": null,
+      "light": {
+        "luminance": 95,
+        "label": "luz média, tons quentes"
+      },
+      "webSrc": null,
+      "poster": null,
+      "needsConversion": false,
+      "alt": "Ela de costas, colhendo frutas numa jabuticabeira, em dia claro.",
+      "chapter": "moments",
+      "notes": "",
+      "suggestions": [
+        {
+          "chapter": "moments",
+          "why": "vertical: compõe bem como retrato ao lado de outra imagem"
+        }
+      ]
+    },
+    {
+      "id": "espelho-anel",
+      "file": "originals/WhatsApp Image 2026-11-08 at 17.15.47 (1).jpeg",
+      "kind": "image",
+      "width": 900,
+      "height": 1600,
+      "orientation": "portrait",
+      "sizeMB": 0.07,
+      "takenAt": null,
+      "hasGps": false,
+      "duration": null,
+      "videoCodec": null,
+      "hasAudio": null,
+      "light": {
+        "luminance": 94,
+        "label": "luz média, tons neutros"
+      },
+      "webSrc": null,
+      "poster": null,
+      "needsConversion": false,
+      "alt": "Ela fotografando no espelho de uma sala, com uma mão em primeiro plano mostrando um anel.",
+      "chapter": "pendente",
+      "notes": "PERGUNTA: o que este anel significa? Não usado até você contar.",
+      "suggestions": [
+        {
+          "chapter": "moments",
+          "why": "vertical: compõe bem como retrato ao lado de outra imagem"
+        }
+      ]
+    },
+    {
+      "id": "carro-risadas",
+      "file": "originals/WhatsApp Image 2026-11-08 at 17.15.47 (2).jpeg",
+      "kind": "image",
+      "width": 1179,
+      "height": 697,
+      "orientation": "landscape",
+      "sizeMB": 0.04,
+      "takenAt": null,
+      "hasGps": false,
+      "duration": null,
+      "videoCodec": null,
+      "hasAudio": null,
+      "light": {
+        "luminance": 52,
+        "label": "escura / noturna, tons quentes"
+      },
+      "webSrc": null,
+      "poster": null,
+      "needsConversion": false,
+      "alt": "Nós dois rindo dentro do carro, à noite.",
+      "chapter": "moments",
+      "notes": "",
+      "suggestions": [
+        {
+          "chapter": "moments",
+          "why": "horizontal: abre bem em formato panorâmico na galeria"
+        },
+        {
+          "chapter": "thoughts",
+          "why": "luz baixa e intimista: combina com pensamentos de saudade"
+        }
+      ]
+    },
+    {
+      "id": "carro-quadro-a",
+      "file": "originals/WhatsApp Image 2026-11-08 at 17.15.47 (3).jpeg",
+      "kind": "image",
+      "width": 738,
+      "height": 1600,
+      "orientation": "portrait",
+      "sizeMB": 0.03,
+      "takenAt": null,
+      "hasGps": false,
+      "duration": null,
+      "videoCodec": null,
+      "hasAudio": null,
+      "light": {
+        "luminance": 16,
+        "label": "escura / noturna, tons neutros"
+      },
+      "webSrc": null,
+      "poster": null,
+      "needsConversion": false,
+      "alt": "Captura de tela de vídeo dentro do carro, com faixas pretas.",
+      "chapter": "descartar",
+      "notes": "Quase igual a carro-risadas, com faixas pretas e menor resolução.",
+      "suggestions": [
+        {
+          "chapter": "moments",
+          "why": "vertical: compõe bem como retrato ao lado de outra imagem"
+        },
+        {
+          "chapter": "thoughts",
+          "why": "luz baixa e intimista: combina com pensamentos de saudade"
+        }
+      ]
+    },
+    {
+      "id": "carro-quadro-b",
+      "file": "originals/WhatsApp Image 2026-11-08 at 17.15.47 (4).jpeg",
+      "kind": "image",
+      "width": 738,
+      "height": 1600,
+      "orientation": "portrait",
+      "sizeMB": 0.03,
+      "takenAt": null,
+      "hasGps": false,
+      "duration": null,
+      "videoCodec": null,
+      "hasAudio": null,
+      "light": {
+        "luminance": 16,
+        "label": "escura / noturna, tons neutros"
+      },
+      "webSrc": null,
+      "poster": null,
+      "needsConversion": false,
+      "alt": "Captura de tela de vídeo dentro do carro, com faixas pretas.",
+      "chapter": "descartar",
+      "notes": "Duplicata em baixa resolução.",
+      "suggestions": [
+        {
+          "chapter": "moments",
+          "why": "vertical: compõe bem como retrato ao lado de outra imagem"
+        },
+        {
+          "chapter": "thoughts",
+          "why": "luz baixa e intimista: combina com pensamentos de saudade"
+        }
+      ]
+    },
+    {
+      "id": "beijo-carro",
+      "file": "originals/WhatsApp Image 2026-11-08 at 17.15.47.jpeg",
+      "kind": "image",
+      "width": 1179,
+      "height": 670,
+      "orientation": "landscape",
+      "sizeMB": 0.03,
+      "takenAt": null,
+      "hasGps": false,
+      "duration": null,
+      "videoCodec": null,
+      "hasAudio": null,
+      "light": {
+        "luminance": 26,
+        "label": "escura / noturna, tons neutros"
+      },
+      "webSrc": null,
+      "poster": null,
+      "needsConversion": false,
+      "alt": "Nós dois nos beijando dentro do carro, à noite.",
+      "chapter": "moments",
+      "notes": "",
+      "suggestions": [
+        {
+          "chapter": "moments",
+          "why": "horizontal: abre bem em formato panorâmico na galeria"
+        },
+        {
+          "chapter": "thoughts",
+          "why": "luz baixa e intimista: combina com pensamentos de saudade"
+        }
+      ]
+    },
+    {
+      "id": "carro-quadro-c",
+      "file": "originals/WhatsApp Image 2026-11-08 at 17.15.48 (1).jpeg",
+      "kind": "image",
+      "width": 738,
+      "height": 1600,
+      "orientation": "portrait",
+      "sizeMB": 0.03,
+      "takenAt": null,
+      "hasGps": false,
+      "duration": null,
+      "videoCodec": null,
+      "hasAudio": null,
+      "light": {
+        "luminance": 12,
+        "label": "escura / noturna, tons neutros"
+      },
+      "webSrc": null,
+      "poster": null,
+      "needsConversion": false,
+      "alt": "Captura de tela de vídeo dentro do carro, com faixas pretas.",
+      "chapter": "descartar",
+      "notes": "Duplicata em baixa resolução.",
+      "suggestions": [
+        {
+          "chapter": "moments",
+          "why": "vertical: compõe bem como retrato ao lado de outra imagem"
+        },
+        {
+          "chapter": "thoughts",
+          "why": "luz baixa e intimista: combina com pensamentos de saudade"
+        }
+      ]
+    },
+    {
+      "id": "artesanato-carro",
+      "file": "originals/WhatsApp Image 2026-11-08 at 17.15.48 (2).jpeg",
+      "kind": "image",
+      "width": 1200,
+      "height": 1600,
+      "orientation": "portrait",
+      "sizeMB": 0.23,
+      "takenAt": null,
+      "hasGps": false,
+      "duration": null,
+      "videoCodec": null,
+      "hasAudio": null,
+      "light": {
+        "luminance": 97,
+        "label": "luz média, tons neutros"
+      },
+      "webSrc": null,
+      "poster": null,
+      "needsConversion": false,
+      "alt": "Ela concentrada, mexendo em algo nas mãos no banco do passageiro, em dia claro.",
+      "chapter": "details",
+      "notes": "Detalhe do jeito dela; sem capítulo com foto ainda.",
+      "suggestions": [
+        {
+          "chapter": "moments",
+          "why": "vertical: compõe bem como retrato ao lado de outra imagem"
+        }
+      ]
+    },
+    {
+      "id": "carro-quadro-d",
+      "file": "originals/WhatsApp Image 2026-11-08 at 17.15.48.jpeg",
+      "kind": "image",
+      "width": 738,
+      "height": 1600,
+      "orientation": "portrait",
+      "sizeMB": 0.03,
+      "takenAt": null,
+      "hasGps": false,
+      "duration": null,
+      "videoCodec": null,
+      "hasAudio": null,
+      "light": {
+        "luminance": 12,
+        "label": "escura / noturna, tons neutros"
+      },
+      "webSrc": null,
+      "poster": null,
+      "needsConversion": false,
+      "alt": "Captura de tela de vídeo dentro do carro, com faixas pretas.",
+      "chapter": "descartar",
+      "notes": "Duplicata em baixa resolução.",
+      "suggestions": [
+        {
+          "chapter": "moments",
+          "why": "vertical: compõe bem como retrato ao lado de outra imagem"
+        },
+        {
+          "chapter": "thoughts",
+          "why": "luz baixa e intimista: combina com pensamentos de saudade"
+        }
+      ]
+    },
+    {
+      "id": "roda-gigante-risada",
+      "file": "originals/WhatsApp Image 2026-11-08 at 17.15.49 (1).jpeg",
+      "kind": "image",
+      "width": 1200,
+      "height": 1600,
+      "orientation": "portrait",
+      "sizeMB": 0.14,
+      "takenAt": null,
+      "hasGps": false,
+      "duration": null,
+      "videoCodec": null,
+      "hasAudio": null,
+      "light": {
+        "luminance": 33,
+        "label": "escura / noturna, tons neutros"
+      },
+      "webSrc": null,
+      "poster": null,
+      "needsConversion": false,
+      "alt": "Nós dois rindo à noite, com uma roda-gigante iluminada de verde ao fundo.",
+      "chapter": "moments",
+      "notes": "",
+      "suggestions": [
+        {
+          "chapter": "moments",
+          "why": "vertical: compõe bem como retrato ao lado de outra imagem"
+        },
+        {
+          "chapter": "thoughts",
+          "why": "luz baixa e intimista: combina com pensamentos de saudade"
+        }
+      ]
+    },
+    {
+      "id": "selfie-parque",
+      "file": "originals/WhatsApp Image 2026-11-08 at 17.15.49 (2).jpeg",
+      "kind": "image",
+      "width": 900,
+      "height": 1600,
+      "orientation": "portrait",
+      "sizeMB": 0.26,
+      "takenAt": null,
+      "hasGps": false,
+      "duration": null,
+      "videoCodec": null,
+      "hasAudio": null,
+      "light": {
+        "luminance": 123,
+        "label": "luz média, tons quentes"
+      },
+      "webSrc": null,
+      "poster": null,
+      "needsConversion": false,
+      "alt": "Selfie de nós dois ao ar livre, sorrindo, com árvores ao fundo.",
+      "chapter": "thoughts",
+      "notes": "",
+      "suggestions": [
+        {
+          "chapter": "moments",
+          "why": "vertical: compõe bem como retrato ao lado de outra imagem"
+        }
+      ]
+    },
+    {
+      "id": "cafe-da-manha",
+      "file": "originals/WhatsApp Image 2026-11-08 at 17.15.49.jpeg",
+      "kind": "image",
+      "width": 1200,
+      "height": 1600,
+      "orientation": "portrait",
+      "sizeMB": 0.22,
+      "takenAt": null,
+      "hasGps": false,
+      "duration": null,
+      "videoCodec": null,
+      "hasAudio": null,
+      "light": {
+        "luminance": 110,
+        "label": "luz média, tons quentes"
+      },
+      "webSrc": null,
+      "poster": null,
+      "needsConversion": false,
+      "alt": "Ela comendo à mesa de toalha xadrez, com suco e café.",
+      "chapter": "moments",
+      "notes": "",
+      "suggestions": [
+        {
+          "chapter": "moments",
+          "why": "vertical: compõe bem como retrato ao lado de outra imagem"
+        }
+      ]
+    },
+    {
+      "id": "rosas-carro",
+      "file": "originals/WhatsApp Image 2026-11-08 at 17.16.08 (1).jpeg",
+      "kind": "image",
+      "width": 1200,
+      "height": 1600,
+      "orientation": "portrait",
+      "sizeMB": 0.1,
+      "takenAt": null,
+      "hasGps": false,
+      "duration": null,
+      "videoCodec": null,
+      "hasAudio": null,
+      "light": {
+        "luminance": 61,
+        "label": "escura / noturna, tons neutros"
+      },
+      "webSrc": null,
+      "poster": null,
+      "needsConversion": false,
+      "alt": "Ela no carro, à noite, segurando um buquê de rosas cor-de-rosa.",
+      "chapter": "moments",
+      "notes": "",
+      "suggestions": [
+        {
+          "chapter": "moments",
+          "why": "vertical: compõe bem como retrato ao lado de outra imagem"
+        },
+        {
+          "chapter": "thoughts",
+          "why": "luz baixa e intimista: combina com pensamentos de saudade"
+        }
+      ]
+    },
+    {
+      "id": "story-rosas",
+      "file": "originals/WhatsApp Image 2026-11-08 at 17.16.08.jpeg",
+      "kind": "image",
+      "width": 738,
+      "height": 1600,
+      "orientation": "portrait",
+      "sizeMB": 0.11,
+      "takenAt": null,
+      "hasGps": false,
+      "duration": null,
+      "videoCodec": null,
+      "hasAudio": null,
+      "light": {
+        "luminance": 101,
+        "label": "luz média, tons quentes"
+      },
+      "webSrc": null,
+      "poster": null,
+      "needsConversion": false,
+      "alt": "Captura de tela de um story com ela e um buquê de rosas.",
+      "chapter": "descartar",
+      "notes": "Tem a interface do Instagram por cima; a rosas-carro mostra o mesmo buquê.",
+      "suggestions": [
+        {
+          "chapter": "moments",
+          "why": "vertical: compõe bem como retrato ao lado de outra imagem"
+        }
+      ]
+    },
+    {
+      "id": "flores-preto-e-branco",
+      "file": "originals/WhatsApp Image 2026-11-08 at 17.21.44.jpeg",
+      "kind": "image",
+      "width": 766,
+      "height": 1023,
+      "orientation": "portrait",
+      "sizeMB": 0.13,
+      "takenAt": null,
+      "hasGps": false,
+      "duration": null,
+      "videoCodec": null,
+      "hasAudio": null,
+      "light": {
+        "luminance": 69,
+        "label": "escura / noturna, tons neutros"
+      },
+      "webSrc": null,
+      "poster": null,
+      "needsConversion": false,
+      "alt": "Foto em preto e branco: metade do rosto dela ao lado de um buquê de flores.",
+      "chapter": "thoughts",
+      "notes": "",
+      "suggestions": [
+        {
+          "chapter": "moments",
+          "why": "vertical: compõe bem como retrato ao lado de outra imagem"
+        },
+        {
+          "chapter": "thoughts",
+          "why": "luz baixa e intimista: combina com pensamentos de saudade"
+        }
+      ]
+    },
+    {
+      "id": "ela-dirigindo",
+      "file": "originals/WhatsApp Image 2026-11-08 at 17.21.45 (1).jpeg",
+      "kind": "image",
+      "width": 960,
+      "height": 1280,
+      "orientation": "portrait",
+      "sizeMB": 0.14,
+      "takenAt": null,
+      "hasGps": false,
+      "duration": null,
+      "videoCodec": null,
+      "hasAudio": null,
+      "light": {
+        "luminance": 89,
+        "label": "luz média, tons neutros"
+      },
+      "webSrc": null,
+      "poster": null,
+      "needsConversion": false,
+      "alt": "Ela dirigindo numa estrada em dia nublado.",
+      "chapter": "thoughts",
+      "notes": "",
+      "suggestions": [
+        {
+          "chapter": "moments",
+          "why": "vertical: compõe bem como retrato ao lado de outra imagem"
+        }
+      ]
+    },
+    {
+      "id": "maos-aneis",
+      "file": "originals/WhatsApp Image 2026-11-08 at 17.21.45 (10).jpeg",
+      "kind": "image",
+      "width": 881,
+      "height": 629,
+      "orientation": "landscape",
+      "sizeMB": 0.05,
+      "takenAt": null,
+      "hasGps": false,
+      "duration": null,
+      "videoCodec": null,
+      "hasAudio": null,
+      "light": {
+        "luminance": 115,
+        "label": "luz média, tons quentes"
+      },
+      "webSrc": null,
+      "poster": null,
+      "needsConversion": false,
+      "alt": "Selfie de nós dois mostrando as mãos com anéis.",
+      "chapter": "moments",
+      "notes": "PERGUNTA: o que estes anéis significam?",
+      "suggestions": [
+        {
+          "chapter": "moments",
+          "why": "horizontal: abre bem em formato panorâmico na galeria"
+        }
+      ]
+    },
+    {
+      "id": "roda-gigante-com-crianca",
+      "file": "originals/WhatsApp Image 2026-11-08 at 17.21.45 (2).jpeg",
+      "kind": "image",
+      "width": 1024,
+      "height": 1024,
+      "orientation": "square",
+      "sizeMB": 0.11,
+      "takenAt": null,
+      "hasGps": false,
+      "duration": null,
+      "videoCodec": null,
+      "hasAudio": null,
+      "light": {
+        "luminance": 67,
+        "label": "escura / noturna, tons quentes"
+      },
+      "webSrc": null,
+      "poster": null,
+      "needsConversion": false,
+      "alt": "Nós dois com uma criança, à noite, perto da roda-gigante.",
+      "chapter": "pendente",
+      "notes": "PERGUNTA: quem é a criança e se a família autoriza aparecer no site. Não usado até lá.",
+      "suggestions": [
+        {
+          "chapter": "thoughts",
+          "why": "luz baixa e intimista: combina com pensamentos de saudade"
+        },
+        {
+          "chapter": "details",
+          "why": "quadrada: funciona como detalhe"
+        }
+      ]
+    },
+    {
+      "id": "anel-e-rosas",
+      "file": "originals/WhatsApp Image 2026-11-08 at 17.21.45 (3).jpeg",
+      "kind": "image",
+      "width": 720,
+      "height": 1280,
+      "orientation": "portrait",
+      "sizeMB": 0.12,
+      "takenAt": null,
+      "hasGps": false,
+      "duration": null,
+      "videoCodec": null,
+      "hasAudio": null,
+      "light": {
+        "luminance": 106,
+        "label": "luz média, tons quentes"
+      },
+      "webSrc": null,
+      "poster": null,
+      "needsConversion": false,
+      "alt": "Mãos dadas sobre um buquê de rosas, com um anel em destaque.",
+      "chapter": "moments",
+      "notes": "PERGUNTA: o que este anel significa?",
+      "suggestions": [
+        {
+          "chapter": "moments",
+          "why": "vertical: compõe bem como retrato ao lado de outra imagem"
+        }
+      ]
+    },
+    {
+      "id": "noite-de-neblina",
+      "file": "originals/WhatsApp Image 2026-11-08 at 17.21.45 (4).jpeg",
+      "kind": "image",
+      "width": 720,
+      "height": 1280,
+      "orientation": "portrait",
+      "sizeMB": 0.08,
+      "takenAt": null,
+      "hasGps": false,
+      "duration": null,
+      "videoCodec": null,
+      "hasAudio": null,
+      "light": {
+        "luminance": 56,
+        "label": "escura / noturna, tons neutros"
+      },
+      "webSrc": null,
+      "poster": null,
+      "needsConversion": false,
+      "alt": "Ela sozinha numa mesa ao ar livre, à noite, com neblina, segurando uma taça.",
+      "chapter": "thoughts",
+      "notes": "",
+      "suggestions": [
+        {
+          "chapter": "moments",
+          "why": "vertical: compõe bem como retrato ao lado de outra imagem"
+        },
+        {
+          "chapter": "thoughts",
+          "why": "luz baixa e intimista: combina com pensamentos de saudade"
+        }
+      ]
+    },
+    {
+      "id": "roda-gigante-juntos",
+      "file": "originals/WhatsApp Image 2026-11-08 at 17.21.45 (5).jpeg",
+      "kind": "image",
+      "width": 960,
+      "height": 1280,
+      "orientation": "portrait",
+      "sizeMB": 0.11,
+      "takenAt": null,
+      "hasGps": false,
+      "duration": null,
+      "videoCodec": null,
+      "hasAudio": null,
+      "light": {
+        "luminance": 49,
+        "label": "escura / noturna, tons neutros"
+      },
+      "webSrc": null,
+      "poster": null,
+      "needsConversion": false,
+      "alt": "Nós dois abraçados à noite, em frente a uma roda-gigante iluminada.",
+      "chapter": "moments",
+      "notes": "",
+      "suggestions": [
+        {
+          "chapter": "moments",
+          "why": "vertical: compõe bem como retrato ao lado de outra imagem"
+        },
+        {
+          "chapter": "thoughts",
+          "why": "luz baixa e intimista: combina com pensamentos de saudade"
+        }
+      ]
+    },
+    {
+      "id": "abraco-no-carro",
+      "file": "originals/WhatsApp Image 2026-11-08 at 17.21.45 (6).jpeg",
+      "kind": "image",
+      "width": 720,
+      "height": 1280,
+      "orientation": "portrait",
+      "sizeMB": 0.05,
+      "takenAt": null,
+      "hasGps": false,
+      "duration": null,
+      "videoCodec": null,
+      "hasAudio": null,
+      "light": {
+        "luminance": 57,
+        "label": "escura / noturna, tons neutros"
+      },
+      "webSrc": null,
+      "poster": null,
+      "needsConversion": false,
+      "alt": "Nós dois abraçados ao lado de um carro, à noite.",
+      "chapter": "moments",
+      "notes": "",
+      "suggestions": [
+        {
+          "chapter": "moments",
+          "why": "vertical: compõe bem como retrato ao lado de outra imagem"
+        },
+        {
+          "chapter": "thoughts",
+          "why": "luz baixa e intimista: combina com pensamentos de saudade"
+        }
+      ]
+    },
+    {
+      "id": "maos-pintadas",
+      "file": "originals/WhatsApp Image 2026-11-08 at 17.21.45 (7).jpeg",
+      "kind": "image",
+      "width": 720,
+      "height": 1280,
+      "orientation": "portrait",
+      "sizeMB": 0.12,
+      "takenAt": null,
+      "hasGps": false,
+      "duration": null,
+      "videoCodec": null,
+      "hasAudio": null,
+      "light": {
+        "luminance": 101,
+        "label": "luz média, tons neutros"
+      },
+      "webSrc": null,
+      "poster": null,
+      "needsConversion": false,
+      "alt": "Nossas mãos pintadas de rosa e azul, com pincéis e tintas em volta.",
+      "chapter": "moments",
+      "notes": "",
+      "suggestions": [
+        {
+          "chapter": "moments",
+          "why": "vertical: compõe bem como retrato ao lado de outra imagem"
+        }
+      ]
+    },
+    {
+      "id": "selfie-no-carro",
+      "file": "originals/WhatsApp Image 2026-11-08 at 17.21.45 (8).jpeg",
+      "kind": "image",
+      "width": 720,
+      "height": 1280,
+      "orientation": "portrait",
+      "sizeMB": 0.09,
+      "takenAt": null,
+      "hasGps": false,
+      "duration": null,
+      "videoCodec": null,
+      "hasAudio": null,
+      "light": {
+        "luminance": 89,
+        "label": "luz média, tons neutros"
+      },
+      "webSrc": null,
+      "poster": null,
+      "needsConversion": false,
+      "alt": "Selfie de nós dois dentro do carro, de dia; ela fazendo um gesto com a mão.",
+      "chapter": "moments",
+      "notes": "",
+      "suggestions": [
+        {
+          "chapter": "moments",
+          "why": "vertical: compõe bem como retrato ao lado de outra imagem"
+        }
+      ]
+    },
+    {
+      "id": "selfie-no-carro-recorte",
+      "file": "originals/WhatsApp Image 2026-11-08 at 17.21.45 (9).jpeg",
+      "kind": "image",
+      "width": 720,
+      "height": 1280,
+      "orientation": "portrait",
+      "sizeMB": 0.1,
+      "takenAt": null,
+      "hasGps": false,
+      "duration": null,
+      "videoCodec": null,
+      "hasAudio": null,
+      "light": {
+        "luminance": 113,
+        "label": "luz média, tons neutros"
+      },
+      "webSrc": null,
+      "poster": null,
+      "needsConversion": false,
+      "alt": "Recorte da mesma selfie no carro.",
+      "chapter": "descartar",
+      "notes": "Duplicata de selfie-no-carro.",
+      "suggestions": [
+        {
+          "chapter": "moments",
+          "why": "vertical: compõe bem como retrato ao lado de outra imagem"
+        }
+      ]
+    },
+    {
+      "id": "dirigindo-a-noite",
+      "file": "originals/WhatsApp Image 2026-11-08 at 17.21.45.jpeg",
+      "kind": "image",
+      "width": 960,
+      "height": 1280,
+      "orientation": "portrait",
+      "sizeMB": 0.1,
+      "takenAt": null,
+      "hasGps": false,
+      "duration": null,
+      "videoCodec": null,
+      "hasAudio": null,
+      "light": {
+        "luminance": 53,
+        "label": "escura / noturna, tons neutros"
+      },
+      "webSrc": null,
+      "poster": null,
+      "needsConversion": false,
+      "alt": "Ela dirigindo à noite, com o painel iluminado.",
+      "chapter": "thoughts",
+      "notes": "",
+      "suggestions": [
+        {
+          "chapter": "moments",
+          "why": "vertical: compõe bem como retrato ao lado de outra imagem"
+        },
+        {
+          "chapter": "thoughts",
+          "why": "luz baixa e intimista: combina com pensamentos de saudade"
+        }
+      ]
+    },
+    {
+      "id": "video-beijo",
+      "file": "originals/WhatsApp Video 2026-11-08 at 17.15.48.mp4",
+      "kind": "video",
+      "width": 800,
+      "height": 480,
+      "orientation": "landscape",
+      "sizeMB": 0.48,
+      "takenAt": null,
+      "hasGps": false,
+      "duration": 2.4,
+      "videoCodec": "h264",
+      "hasAudio": true,
+      "light": {
+        "luminance": 30,
+        "label": "escura / noturna, tons neutros"
+      },
+      "webSrc": null,
+      "poster": "/media/web/whatsapp-video-2026-11-08-at-17-15-48.poster.jpg",
+      "needsConversion": false,
+      "alt": "Vídeo curto de nós dois nos beijando no carro, à noite.",
+      "chapter": "interlude",
+      "notes": "2,4 s: funciona em loop como pausa entre capítulos.",
+      "suggestions": [
+        {
+          "chapter": "interlude",
+          "why": "curto: funciona como pausa cinematográfica entre capítulos"
+        }
+      ]
+    },
+    {
+      "id": "video-lago",
+      "file": "originals/WhatsApp Video 2026-11-08 at 17.16.07.mp4",
+      "kind": "video",
+      "width": 464,
+      "height": 832,
+      "orientation": "portrait",
+      "sizeMB": 7.07,
+      "takenAt": null,
+      "hasGps": false,
+      "duration": 43.1,
+      "videoCodec": "h264",
+      "hasAudio": true,
+      "light": {
+        "luminance": 135,
+        "label": "luz média, tons frios"
+      },
+      "webSrc": null,
+      "poster": "/media/web/whatsapp-video-2026-11-08-at-17-16-07.poster.jpg",
+      "needsConversion": false,
+      "alt": "Vídeo de um lago com árvores e céu azul, com uma vara de pesca no alto.",
+      "chapter": "interlude",
+      "notes": "43 s, calmo: boa pausa contemplativa. PERGUNTA: onde foi e se tem som importante.",
+      "suggestions": [
+        {
+          "chapter": "moments",
+          "why": "mais longo: melhor como memória que ela escolhe assistir, com controles"
+        },
+        {
+          "chapter": "moments",
+          "why": "vertical: natural no celular dela"
+        }
+      ]
+    },
+    {
+      "id": "video-jantar",
+      "file": "originals/WhatsApp Video 2026-11-08 at 17.21.45.mp4",
+      "kind": "video",
+      "width": 576,
+      "height": 1024,
+      "orientation": "portrait",
+      "sizeMB": 1.39,
+      "takenAt": null,
+      "hasGps": false,
+      "duration": 8.4,
+      "videoCodec": "h264",
+      "hasAudio": true,
+      "light": {
+        "luminance": 128,
+        "label": "luz média, tons neutros"
+      },
+      "webSrc": null,
+      "poster": "/media/web/whatsapp-video-2026-11-08-at-17-21-45.poster.jpg",
+      "needsConversion": false,
+      "alt": "Vídeo dela à mesa de um restaurante, com um prato de camarão.",
+      "chapter": "moments",
+      "notes": "8 s, com som.",
+      "suggestions": [
+        {
+          "chapter": "interlude",
+          "why": "curto: funciona como pausa cinematográfica entre capítulos"
+        },
+        {
+          "chapter": "moments",
+          "why": "vertical: natural no celular dela"
+        }
+      ]
+    }
+  ]
+}

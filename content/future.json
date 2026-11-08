@@ -1,0 +1,9 @@
+[
+  { "id": "f1", "title": "Nossa primeira casa", "text": "Imagino caixas pela metade, um sofá que ainda não chegou e a gente decidindo onde fica cada coisa. Imagino a primeira noite, cansados, achando tudo perfeito mesmo sem estar.", "media": null, "position": 0, "status": "published" },
+  { "id": "f2", "title": "Manhãs de domingo", "text": "Sem despertador. Luz entrando devagar pela janela, café sem pressa, conversa que não precisa chegar a lugar nenhum.", "media": null, "position": 1, "status": "published" },
+  { "id": "f3", "title": "Nossas viagens", "text": "Lugares que ainda não escolhemos. Mapas, estradas, cidades onde a gente se perde de propósito — e a parte boa de voltar para casa juntos.", "media": null, "position": 2, "status": "published" },
+  { "id": "f4", "title": "Nossas conquistas", "text": "Quero estar na primeira fila de cada coisa que você conquistar. E quero que as minhas tenham você nelas.", "media": null, "position": 3, "status": "published" },
+  { "id": "f5", "title": "Os dias difíceis", "text": "Eu sei que nem tudo vai ser leve. Haverá desafios que ainda não conhecemos. O que eu imagino é enfrentá-los lado a lado, sem soltar a mão.", "media": null, "position": 4, "status": "published" },
+  { "id": "f6", "title": "Marido e mulher", "text": "Penso no dia em que poderemos nos chamar assim. Não como um ponto de chegada, mas como uma promessa que eu gostaria de cumprir todos os dias.", "media": null, "position": 5, "status": "published" },
+  { "id": "f7", "title": "Envelhecer juntos", "text": "Cabelos brancos, histórias repetidas, as mesmas mãos dadas. Se eu tiver sorte, vou continuar pensando em você até lá — e depois.", "media": null, "position": 6, "status": "published" }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "t1",
+    "title": "O silêncio da casa",
+    "body": "Tem uma hora do dia em que tudo fica quieto, e é justamente nela que eu mais sinto sua falta.\n\nNão é uma saudade barulhenta. É mais parecida com procurar alguém num cômodo e lembrar, um segundo depois, que você não está ali.\n\nEu fico com essa sensação por um tempo. E, de um jeito estranho, ela me faz bem: é a prova de que existe um lugar em mim que só você ocupa.",
+    "categoryId": "saudade",
+    "createdAt": "2026-10-04T22:10:00.000Z",
+    "publishedAt": "2026-10-04T22:10:00.000Z",
+    "status": "published",
+    "isSpecial": false,
+    "audioSrc": null,
+    "photoId": "noite-de-neblina"
+  },
+  {
+    "id": "t2",
+    "title": "Coisas que eu ainda não sei dizer",
+    "body": "Às vezes eu te olho e fica faltando palavra.\n\nNão porque eu não sinta o suficiente, mas porque sinto mais do que consigo organizar numa frase. Então eu fico quieto, sorrio, mudo de assunto.\n\nEste é o meu jeito de compensar esses silêncios: escrever devagar, até as palavras alcançarem o que eu sinto.",
+    "categoryId": "nunca-contei",
+    "createdAt": "2026-10-11T23:40:00.000Z",
+    "publishedAt": "2026-10-11T23:40:00.000Z",
+    "status": "published",
+    "isSpecial": true,
+    "audioSrc": null,
+    "photoId": "flores-preto-e-branco"
+  },
+  {
+    "id": "t3",
+    "title": "Um futuro sem pressa",
+    "body": "Eu não penso no futuro como uma lista de metas.\n\nPenso nele como uma sequência de dias comuns em que você está. Café, cansaço, risada, planos que mudam. Nada extraordinário — e é exatamente isso que me parece extraordinário.\n\nSe eu puder escolher, quero ter muitos dias comuns com você.",
+    "categoryId": "futuro",
+    "createdAt": "2026-10-19T21:05:00.000Z",
+    "publishedAt": "2026-10-19T21:05:00.000Z",
+    "status": "published",
+    "isSpecial": false,
+    "audioSrc": null,
+    "photoId": "ela-dirigindo"
+  },
+  {
+    "id": "t4",
+    "title": "Não foi um instante",
+    "body": "Eu gostaria de dizer que existe um momento exato em que percebi que te amava. Mas, para mim, não foi assim.\n\nFoi se acumulando. Um detalhe aqui, uma conversa ali, uma vontade cada vez maior de te contar tudo primeiro.\n\nQuando eu notei, já era verdade havia algum tempo.",
+    "categoryId": "amor",
+    "createdAt": "2026-10-26T20:30:00.000Z",
+    "publishedAt": "2026-10-26T20:30:00.000Z",
+    "status": "published",
+    "isSpecial": false,
+    "audioSrc": null,
+    "photoId": "selfie-parque"
+  },
+  {
+    "id": "t5",
+    "title": "Uma música qualquer",
+    "body": "Tem coisas que não têm nada a ver com você e, mesmo assim, me fazem lembrar de você.\n\nUma música tocando ao fundo. Uma risada parecida com a sua. Um céu de fim de tarde.\n\nAcho que é isso que acontece quando alguém passa a fazer parte de como a gente vê o mundo.",
+    "categoryId": "pequenas-coisas",
+    "createdAt": "2026-11-01T19:15:00.000Z",
+    "publishedAt": "2026-11-01T19:15:00.000Z",
+    "status": "published",
+    "isSpecial": false,
+    "audioSrc": null,
+    "photoId": "dirigindo-a-noite"
+  },
+  {
+    "id": "t6",
+    "title": "De novo, e de novo",
+    "body": "Amar você não é algo que aconteceu uma vez e ficou pronto.\n\nÉ uma escolha que eu faço outra vez quando o dia é fácil e, principalmente, quando ele não é.\n\nE todas as vezes que eu paro para pensar, a resposta continua a mesma.",
+    "categoryId": "escolhi",
+    "createdAt": "2026-11-06T22:50:00.000Z",
+    "publishedAt": "2026-11-06T22:50:00.000Z",
+    "status": "published",
+    "isSpecial": true,
+    "audioSrc": null,
+    "photoId": null
+  }
+]

@@ -1,0 +1,8 @@
+[
+  { "id": "d1", "text": "Seu sorriso quando você está verdadeiramente feliz.", "note": "Aquele que chega antes de você perceber.", "position": 0, "status": "published" },
+  { "id": "d2", "text": "A maneira como você transforma um dia comum em algo especial.", "note": null, "position": 1, "status": "published" },
+  { "id": "d3", "text": "O conforto que sinto simplesmente por estar perto de você.", "note": "Nenhum lugar precisa ser bonito quando você está nele.", "position": 2, "status": "published" },
+  { "id": "d4", "text": "O jeito como você presta atenção quando alguém fala com você.", "note": null, "position": 3, "status": "published" },
+  { "id": "d5", "text": "A sua voz quando está quase dormindo.", "note": null, "position": 4, "status": "published" },
+  { "id": "d6", "text": "Que você continua me surpreendendo, mesmo quando acho que já te conheço inteira.", "note": null, "position": 5, "status": "published" }
+]
