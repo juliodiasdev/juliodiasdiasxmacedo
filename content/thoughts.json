@@ -8,8 +8,8 @@
     "publishedAt": "2026-10-04T22:10:00.000Z",
     "status": "published",
     "isSpecial": false,
-    "photo": null,
-    "audioSrc": null
+    "audioSrc": null,
+    "photoId": "noite-de-neblina"
   },
   {
     "id": "t2",
@@ -20,8 +20,8 @@
     "publishedAt": "2026-10-11T23:40:00.000Z",
     "status": "published",
     "isSpecial": true,
-    "photo": null,
-    "audioSrc": null
+    "audioSrc": null,
+    "photoId": "flores-preto-e-branco"
   },
   {
     "id": "t3",
@@ -32,8 +32,8 @@
     "publishedAt": "2026-10-19T21:05:00.000Z",
     "status": "published",
     "isSpecial": false,
-    "photo": null,
-    "audioSrc": null
+    "audioSrc": null,
+    "photoId": "ela-dirigindo"
   },
   {
     "id": "t4",
@@ -44,8 +44,8 @@
     "publishedAt": "2026-10-26T20:30:00.000Z",
     "status": "published",
     "isSpecial": false,
-    "photo": null,
-    "audioSrc": null
+    "audioSrc": null,
+    "photoId": "selfie-parque"
   },
   {
     "id": "t5",
@@ -56,8 +56,8 @@
     "publishedAt": "2026-11-01T19:15:00.000Z",
     "status": "published",
     "isSpecial": false,
-    "photo": null,
-    "audioSrc": null
+    "audioSrc": null,
+    "photoId": "dirigindo-a-noite"
   },
   {
     "id": "t6",
@@ -68,7 +68,7 @@
     "publishedAt": "2026-11-06T22:50:00.000Z",
     "status": "published",
     "isSpecial": true,
-    "photo": null,
-    "audioSrc": null
+    "audioSrc": null,
+    "photoId": null
   }
 ]

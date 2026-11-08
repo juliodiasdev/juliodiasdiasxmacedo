@@ -44,7 +44,24 @@
     ],
     "button": "Voltar ao diário"
   },
-  "chapterOrder": ["thoughts", "moments", "details", "future", "letter"],
+  "chapterOrder": [
+    "thoughts",
+    "moments",
+    "details",
+    "future",
+    "letter"
+  ],
   "music": null,
-  "interludes": []
+  "interludes": [
+    {
+      "afterChapter": "thoughts",
+      "mediaId": "video-lago",
+      "caption": null
+    },
+    {
+      "afterChapter": "details",
+      "mediaId": "video-beijo",
+      "caption": null
+    }
+  ]
 }
