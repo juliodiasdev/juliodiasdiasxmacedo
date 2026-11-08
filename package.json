@@ -14,8 +14,6 @@
     "media:prepare": "node scripts/media-prepare.mjs"
   },
   "dependencies": {
-    "@supabase/ssr": "^0.12.7",
-    "@supabase/supabase-js": "^2.119.0",
     "lucide-react": "^1.70.0",
     "motion": "^14.10.1",
     "next": "^16.4.5",

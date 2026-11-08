@@ -89,7 +89,6 @@ export function getLocalExperience(includeDrafts: boolean): ExperienceData {
     includeDrafts ? items : items.filter((i) => i.status === "published");
 
   return {
-    mode: "local",
     settings: settingsWithMedia(),
     categories: [...(categories as Category[])].sort((a, b) => a.position - b.position),
     thoughts: visible(raw.thoughts)

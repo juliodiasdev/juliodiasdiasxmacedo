@@ -154,9 +154,6 @@ function ThoughtCard({
       <div className="flex flex-wrap items-center gap-x-3 gap-y-1 text-[0.72rem] tracking-[0.12em] text-gold/80 uppercase">
         <time dateTime={thought.createdAt}>{formatDate(thought.createdAt)}</time>
         {isNew && <span className="rounded-full bg-rose/20 px-2 py-0.5 text-[0.65rem] text-rose">novo</span>}
-        {thought.status === "draft" && (
-          <span className="rounded-full border border-ivory/20 px-2 py-0.5 text-[0.65rem] text-ivory/60">rascunho</span>
-        )}
       </div>
       <h3 className="mt-4 font-serif text-[1.9rem] leading-tight font-normal text-ivory transition group-hover:text-ivory">
         {thought.title}

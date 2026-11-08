@@ -2,7 +2,9 @@
 
 > Um lugar para guardar tudo aquilo que meu coração nunca conseguiu explicar por completo.
 
-Experiência web narrativa, um presente, feita com Next.js 16 (App Router), TypeScript, Tailwind CSS 4, Motion, Lucide e Supabase.
+Experiência web narrativa, um presente, feita com Next.js 16 (App Router), TypeScript, Tailwind CSS 4, Motion e Lucide.
+
+É um site **100% estático**: sem banco de dados, sem login, sem serviços externos. Todo o conteúdo fica em arquivos na pasta `content/`.
 
 ## Capítulos
 
@@ -16,12 +18,12 @@ Experiência web narrativa, um presente, feita com Next.js 16 (App Router), Type
 | 6 | A carta | Texto livre, revelado parágrafo a parágrafo durante a leitura. |
 | 7 | Isso não termina aqui | Volta ao diário e mostra quantos pensamentos novos chegaram desde a última visita (registrado no próprio aparelho dela). |
 
-A ordem dos capítulos 2 a 6 pode ser mudada no painel. Vídeos (interlúdios) podem ser inseridos entre os capítulos.
+A ordem dos capítulos 2 a 6 é definida em `content/site.json` (`chapterOrder`). Vídeos (interlúdios) podem ser inseridos entre os capítulos.
 
 ## Estrutura
 
 ```
-content/                 ← TODO o conteúdo pessoal (modo local). Nada pessoal no código.
+content/                 ← TODO o conteúdo pessoal. Nada pessoal no código.
   site.json              textos, ordem dos capítulos, música, interlúdios
   thoughts.json          pensamentos (photoId → media.json)
   memories.json          memórias (mediaId → media.json)
@@ -35,42 +37,24 @@ public/media/web/        versões derivadas (capas de vídeo, MP4 compatível), 
 scripts/
   media-inventory.mjs    inventário técnico das mídias + relatório
   media-prepare.mjs      gera capas e vídeos compatíveis com celular
-supabase/
-  schema.sql             tabelas, RLS, bucket de armazenamento e políticas
-  seed.sql               categorias iniciais (opcional)
 src/
-  app/                   rotas: / · /admin/* · /preview
+  app/                   página única + estados de carregamento, erro e 404
   components/experience/ capítulos e narrativa
-  components/admin/      formulários do painel
   components/ui/         primitivos (revelação, mídia, áudio, diálogo acessível)
-  lib/content/           camada de dados: local (/content) ou Supabase
-  lib/auth.ts            verificação de administrador (servidor)
-  proxy.ts               proteção de /admin e /preview
+  lib/content/           lê e valida os arquivos de /content
 ```
 
-## Dois modos de funcionamento
+## Como editar e adicionar conteúdo
 
-**Modo local** (sem variáveis de ambiente): o site lê `content/`. Para mudar algo, edite os arquivos e faça um novo deploy. Neste modo o `/admin` mostra só as instruções de configuração. Ele não finge salvar nada.
+Tudo é feito editando os arquivos de `content/` (em qualquer editor ou direto no GitHub) e publicando de novo.
 
-**Modo Supabase** (com as variáveis preenchidas): banco, autenticação e armazenamento ativos. O `/admin` permite:
+- **Novo pensamento:** adicione um item em `content/thoughts.json` (copie um existente e troque `id`, `title`, `body`, `categoryId`, `createdAt` e `publishedAt`). Use `"status": "draft"` para guardar sem mostrar e `"isSpecial": true` para destacar.
+- **Memórias:** `content/memories.json` (`mediaId` aponta para a foto ou vídeo em `media.json`).
+- **Carta:** `content/letter.json`. No campo `body`, use `\n\n` entre parágrafos.
+- **Textos, ordem dos capítulos, música e vídeos entre capítulos:** `content/site.json`.
+- **Áudios pessoais e música:** coloque o arquivo em `public/media/` e informe o caminho (ex.: `"audioSrc": "/media/audio/voz.m4a"`). A música só toca se ela ativar o botão na entrada.
 
-- criar, editar e excluir pensamentos, salvar rascunhos e publicar;
-- enviar fotos, vídeos e áudios;
-- criar e editar memórias, categorias, pequenas coisas e sonhos de futuro;
-- editar a carta;
-- editar os textos de abertura e encerramento;
-- reordenar os capítulos;
-- configurar a música e os vídeos entre capítulos;
-- marcar conteúdo como especial;
-- ver em `/preview` a experiência como ela verá, com os rascunhos marcados.
-
-Segurança:
-
-- Visitantes só leem o que está publicado: o RLS do Postgres garante isso.
-- Só usuários na tabela `admins` escrevem no banco e no bucket `media`.
-- `ADMIN_EMAIL` adiciona uma segunda verificação no servidor.
-- Nenhuma chave de serviço é usada: o navegador recebe apenas a chave pública *anon*.
-- Toda página e ação do painel verifica o administrador por conta própria.
+Na Vercel, cada `git push` publica a nova versão em cerca de um minuto. Na próxima visita, ela vê os pensamentos novos marcados como “novo” e o final mostra quantos chegaram.
 
 ## Suas fotos e vídeos
 
@@ -96,7 +80,7 @@ Segurança:
 
 As fotos são otimizadas na entrega pelo `next/image` (AVIF/WebP no tamanho de cada tela), sem recomprimir o arquivo original. O tratamento “cinematográfico” é só um leve ajuste de tom via CSS mais granulação sobreposta. Nenhum rosto é alterado e nenhuma imagem é gerada.
 
-> Repositórios no GitHub têm limite de 100 MB por arquivo. Para vídeos grandes, use o modo Supabase e envie pelo painel, ou use Git LFS.
+> O GitHub aceita arquivos de até 100 MB (25 MB pelo navegador). Para vídeos maiores, rode `npm run media:prepare`, que gera versões menores, e use essas.
 
 ## Rodar localmente
 
@@ -114,29 +98,11 @@ Abra http://localhost:3000. Para verificar tudo (tipos, lint e build):
 npm run check
 ```
 
-## Ativar o Supabase
-
-1. Crie um projeto em supabase.com.
-2. No **SQL Editor**, execute `supabase/schema.sql` e, se quiser, `supabase/seed.sql`.
-3. Em **Authentication → Users**, crie o seu usuário. Em **Authentication → Providers → Email**, desative *Allow new users to sign up*.
-4. Autorize o seu usuário:
-
-   ```sql
-   insert into public.admins (user_id) values ('SEU-USER-ID');
-   ```
-
-5. Copie `.env.example` para `.env.local` e preencha `NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_ANON_KEY`, `ADMIN_EMAIL` e `NEXT_PUBLIC_SITE_URL`.
-6. Reinicie e acesse `/admin`.
-
-No modo Supabase, os textos-padrão de `content/site.json` e `content/letter.json` servem de ponto de partida até você salvar a sua versão no painel.
-
 ## Publicar na Vercel
 
 1. Importe o repositório na Vercel. O framework é detectado automaticamente.
-2. Em **Settings → Environment Variables**, adicione as mesmas variáveis do `.env.local`.
-3. Faça o deploy. O site é marcado como `noindex` para não aparecer em buscadores.
-
-Novos pensamentos publicados pelo painel aparecem na hora, porque cada ação revalida a página.
+2. Opcional: em **Settings → Environment Variables**, defina `NEXT_PUBLIC_SITE_URL`.
+3. Faça o deploy. Não há nada para configurar além disso. O site é marcado como `noindex` para não aparecer em buscadores.
 
 ## Acessibilidade e desempenho
 

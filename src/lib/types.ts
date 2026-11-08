@@ -1,7 +1,6 @@
 /**
  * Tipos de domínio da experiência.
- * O conteúdo pessoal vive em /content (modo local) ou no Supabase (modo persistente);
- * ambos são convertidos para estes tipos antes de chegar à interface.
+ * O conteúdo pessoal vive em /content e é convertido para estes tipos antes de chegar à interface.
  */
 
 export type ChapterId = "thoughts" | "moments" | "details" | "future" | "letter";
@@ -22,7 +21,7 @@ export type MediaKind = "image" | "video";
 
 export interface MediaRef {
   kind: MediaKind;
-  /** Caminho em /public (ex.: /media/originals/foto.jpg) ou URL pública do Supabase Storage. */
+  /** Caminho em /public (ex.: /media/originals/foto.jpg). */
   src: string;
   /** Imagem de capa para vídeos. */
   poster?: string | null;
@@ -123,7 +122,6 @@ export interface SiteSettings {
 }
 
 export interface ExperienceData {
-  mode: "local" | "supabase";
   settings: SiteSettings;
   categories: Category[];
   thoughts: Thought[];

@@ -39,12 +39,7 @@ function readPreviousVisit(): number | null {
 }
 const noopSubscribe = () => () => {};
 
-interface ExperienceProps {
-  data: ExperienceData;
-  preview?: boolean;
-}
-
-export function Experience({ data, preview = false }: ExperienceProps) {
+export function Experience({ data }: { data: ExperienceData }) {
   const { settings } = data;
   const [entered, setEntered] = useState(false);
   const [filter, setFilter] = useState<DiaryFilter>("all");
@@ -61,14 +56,12 @@ export function Experience({ data, preview = false }: ExperienceProps) {
 
   useEffect(() => {
     readPreviousVisit();
-    if (!preview) {
-      try {
-        window.localStorage.setItem(LAST_VISIT_KEY, String(Date.now()));
-      } catch {
-        /* navegação privada: sem memória de visita */
-      }
+    try {
+      window.localStorage.setItem(LAST_VISIT_KEY, String(Date.now()));
+    } catch {
+      /* navegação privada: sem memória de visita */
     }
-  }, [preview]);
+  }, []);
 
   useEffect(() => {
     document.documentElement.style.overflow = entered ? "" : "hidden";
@@ -128,15 +121,6 @@ export function Experience({ data, preview = false }: ExperienceProps) {
   return (
     <MotionConfig reducedMotion="user">
       <Grain />
-
-      {preview && (
-        <div className="fixed inset-x-0 top-0 z-[80] bg-rose px-4 py-2 text-center text-xs tracking-wide text-ivory">
-          Pré-visualização — rascunhos aparecem marcados e não são visíveis para ela.{" "}
-          <a href="/admin" className="underline underline-offset-2">
-            Voltar ao painel
-          </a>
-        </div>
-      )}
 
       <AnimatePresence>
         {!entered && <Threshold settings={settings} hasMusic={Boolean(settings.music)} onEnter={enter} />}
